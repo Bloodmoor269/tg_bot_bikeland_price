@@ -37,7 +37,7 @@ WorkingDirectory=/home/uid0001/Desktop/tg_bot
 # ⏳ Пауза 60 секунд перед запуском
 ExecStartPre=/bin/sleep 60
 # 🔑 Путь к python из вашего виртуального окружения и скрипт бота
-# Проверьте, что путь к python правильный (см. пояснение ниже)
+# Проверьте, что путь к python правильный
 ExecStart=/home/uid0001/Desktop/tg_bot/bin/python /home/uid0001/Desktop/tg_bot/bot.py
 # Автоматически перезапускать при падении
 Restart=always
